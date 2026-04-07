@@ -1,9 +1,9 @@
 aid: sportsapi
 name: SportsAPI
 description: >-
-  Easily compare live sport scores APIs side by side.Filter by vendor pricing,
-  data category, sports coverage, statistics and more.Learn how to choose a
-  Sports Data Provider 
+  Easily compare live sport scores APIs side by side.Filter by vendor pricing, data
+  category, sports coverage, statistics and more.Learn how to choose a Sports Data
+  Provider.
 type: Index
 position: Consumer
 access: 3rd-Party
@@ -19,9 +19,9 @@ apis:
   - aid: sportsapi:sportsapi
     name: SportsAPI
     description: >-
-      Easily compare live sport scores APIs side by side.Filter by vendor
-      pricing, data category, sports coverage, statistics and more.Learn how to
-      choose a Sports Data Provider 
+      Easily compare live sport scores APIs side by side.Filter by vendor pricing,
+      data category, sports coverage, statistics and more.Learn how to choose a Sports
+      Data Provider.
     humanURL: ' https://sportsapi.com/'
     tags:
       - API
