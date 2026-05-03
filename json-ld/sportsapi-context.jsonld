@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@vocab": "https://sportsapi.com/ontology/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "ApiProvider": "schema:SoftwareApplication",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+
+    "SportDataProvider": "sportsapi:SportDataProvider",
+    "pricing": "schema:offers",
+    "sportsSupported": "sportsapi:sportsSupported",
+    "dataCategories": "sportsapi:dataCategories",
+    "coverageLevel": "sportsapi:coverageLevel",
+
+    "PricingTier": "schema:Offer",
+    "price": "schema:price",
+    "priceCurrency": "schema:priceCurrency",
+    "requestLimit": "sportsapi:requestLimit",
+    "features": "schema:description",
+
+    "Sport": "sportsapi:Sport",
+    "sportName": "schema:name",
+    "leagues": "sportsapi:hasLeague",
+
+    "DataCategory": "sportsapi:DataCategory",
+    "categoryName": "schema:name",
+    "includesLiveScores": "sportsapi:includesLiveScores",
+    "includesOdds": "sportsapi:includesOdds",
+    "includesStats": "sportsapi:includesStats",
+    "includesFantasy": "sportsapi:includesFantasy"
+  }
+}

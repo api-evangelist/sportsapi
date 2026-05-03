@@ -1,0 +1,111 @@
+name: SportsAPI Vocabulary
+description: >-
+  Domain vocabulary for the SportsAPI.com sports data API comparison and directory platform,
+  covering terminology used for evaluating, comparing, and integrating sports data providers.
+version: '1.0'
+created: '2026-05-02'
+modified: '2026-05-02'
+terms:
+  - term: Sports Data API
+    definition: >-
+      A web service that provides structured sports information including live scores,
+      statistics, odds, team data, player data, schedules, and standings through
+      programmable HTTP endpoints.
+    related:
+      - Live Scores API
+      - Statistics API
+      - Odds API
+
+  - term: Live Scores
+    definition: >-
+      Real-time game score data updated as points are scored during an active sporting event,
+      typically with sub-second to minute-level latency depending on the provider and sport.
+    related:
+      - In-Play Data
+      - Real-Time Data
+
+  - term: Sports Coverage
+    definition: >-
+      The range of sports, leagues, teams, and competitions that a sports data provider
+      has data for. Coverage varies by provider from single-sport to multi-sport global coverage.
+
+  - term: Historical Data
+    definition: >-
+      Archived sports statistics, scores, and records from past games and seasons,
+      used for trend analysis, modeling, and fantasy sports applications.
+
+  - term: Fantasy Sports Data
+    definition: >-
+      Specialized sports data for fantasy sports applications including player projections,
+      fantasy points calculations, depth charts, injury reports, and roster information.
+    related:
+      - Projections
+      - Fantasy Points
+
+  - term: Odds Feed
+    definition: >-
+      Real-time or near-real-time betting odds data from sportsbooks covering spreads,
+      moneylines, totals, and prop markets for sports events.
+
+  - term: Data Category
+    definition: >-
+      A classification of the type of sports data provided by an API, such as scores,
+      statistics, odds, fantasy, video/media, or betting analysis.
+
+  - term: API Pricing Tier
+    definition: >-
+      A subscription level for a sports data API that determines the rate limits,
+      number of API calls allowed per period, and which data categories are accessible.
+
+  - term: Widget
+    definition: >-
+      An embeddable UI component that displays sports data (scores, standings, stats)
+      on a website without requiring custom development.
+
+  - term: White Label Solution
+    definition: >-
+      A branded sports data or app solution that can be rebranded and resold by
+      a third-party developer or company.
+
+  - term: Vendor Pricing
+    definition: >-
+      The cost structure for a sports data API service, often including free tiers,
+      per-call pricing, monthly subscription tiers, and enterprise contracts.
+
+  - term: Data Provider
+    definition: >-
+      A company or organization that collects, processes, and distributes sports data
+      through APIs, data feeds, or database products.
+
+  - term: Coverage Level
+    definition: >-
+      The depth of data available for a sport or league, ranging from basic scores
+      to advanced play-by-play, tracking data, and proprietary statistics.
+
+  - term: Latency
+    definition: >-
+      The delay between a real-world sporting event occurring and the data being
+      available through an API, ranging from milliseconds (live) to minutes (delayed).
+
+  - term: Rate Limit
+    definition: >-
+      A restriction on the number of API requests that can be made within a given
+      time period (per second, per minute, per day) imposed by a data provider.
+
+  - term: Endpoint
+    definition: >-
+      A specific URL path in a sports data API that returns a particular type of data
+      such as game scores, team stats, or player information.
+
+  - term: Integration
+    definition: >-
+      The process of connecting a sports data API to an application, website, or
+      platform to display or analyze sports data within that environment.
+tags:
+  - Sports Data
+  - API Comparison
+  - Directory
+  - Live Scores
+  - Statistics
+  - Odds
+  - Fantasy Sports
