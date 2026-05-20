@@ -46,6 +46,8 @@ apis:
       - type: Website
         url: https://sportsapi.com/
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/thesportsapi
   - type: Website
     url: https://sportsapi.com/
   - type: Portal
