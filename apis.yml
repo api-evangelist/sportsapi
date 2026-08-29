@@ -7,6 +7,17 @@ description: >-
   coverage, data categories, and vendor features. The platform covers providers for
   football, soccer, basketball, baseball, cricket, horse racing, and more.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
