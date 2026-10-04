@@ -54,7 +54,6 @@ apis:
       features. The platform lists providers including SportMonks, API-Sports,
       GoalServe, The Odds API, FantasyData, CricketAPI, EnetPulse, and AllSports API.
     humanURL: https://sportsapi.com/
-    baseURL: https://sportsapi.com/
     tags:
       - Sports Data
       - API Directory
