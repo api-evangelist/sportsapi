@@ -39,7 +39,7 @@ tags:
   - API Directory
   - Comparison
 created: '2025-03-01'
-modified: '2026-05-02'
+modified: '2026-10-06'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/sportsapi/refs/heads/main/apis.yml
 specificationVersion: '0.23'
@@ -68,6 +68,8 @@ apis:
       - type: Website
         url: https://sportsapi.com/
 common:
+  - url: https://sportsapi.com/articles/
+    type: Blog
   - type: DomainSecurity
     url: security/sportsapi-domain-security.yml
   - type: LinkedIn
